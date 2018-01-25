@@ -1,0 +1,35 @@
+unit uIdentificacaoPeriodo;
+
+interface
+
+uses
+  Classes, SysUtils;
+
+type
+  TidePeriodo = class
+  private
+    FiniValid_13: string;
+    FfimValid_14: string;
+  public
+    property iniValid_13: string read FiniValid_13 write FiniValid_13;
+    property fimValid_14: string read FfimValid_14 write FfimValid_14;
+    function gerarTX2(): WideString;
+  end;
+
+implementation
+
+{ TidePeriodo }
+
+function TidePeriodo.gerarTX2: WideString;
+var
+  Lista: TStringList;
+begin
+  Lista := TStringList.Create;
+  Lista.Add('iniValid_13=' + FormatDateTime('YYYY-MM', StrToDateDef(iniValid_13, Now)));
+  if (Trim(fimValid_14) <> EmptyStr) then
+    Lista.Add('fimValid_14=' + FormatDateTime('YYYY-MM', StrToDateDef(fimValid_14, Now)));
+  Result := Lista.Text;
+end;
+
+end.
+

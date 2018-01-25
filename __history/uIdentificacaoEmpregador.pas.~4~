@@ -1,0 +1,21 @@
+unit uIdentificacaoEmpregador;
+
+interface
+
+type
+  TideEmpregador = class
+  private
+    FtpInsc_8: String;
+    FnrInsc_9: String;
+
+  public
+   property tpInsc_8: String read FtpInsc_8 write FtpInsc_8;
+   property nrInsc_9: String read FnrInsc_9 write FnrInsc_9;
+    function gerarTX2(): WideString;
+
+  end;
+
+implementation
+
+end.
+

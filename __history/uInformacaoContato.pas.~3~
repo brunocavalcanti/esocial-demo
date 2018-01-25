@@ -1,0 +1,33 @@
+unit uInformacaoContato;
+
+interface
+uses System.Classes, System.SysUtils;
+type
+ Tcontato = class
+   public
+
+   private
+    Femail_40: String;
+    FnmCtt_36: String;
+    FcpfCtt_37: String;
+    FfoneCel_39: String;
+    FfoneFixo_38: String;
+
+   property nmCtt_36: String read FnmCtt_36 write FnmCtt_36;
+   property cpfCtt_37: String read FcpfCtt_37 write FcpfCtt_37;
+   property foneFixo_38: String read FfoneFixo_38 write FfoneFixo_38;
+   property foneCel_39: String read FfoneCel_39 write FfoneCel_39;
+   property email_40: String read Femail_40 write Femail_40;
+       function gerarTX2(): string;
+
+ end;
+implementation
+
+{ Tcontato }
+
+function Tcontato.gerarTX2: string;
+begin
+
+end;
+
+end.

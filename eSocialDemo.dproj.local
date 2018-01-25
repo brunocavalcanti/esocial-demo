@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2018/01/22 10:52:09.000.806,=C:\Users\bruno.prado\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2018/01/22 10:52:49.000.680,C:\Users\bruno.prado\Documents\Embarcadero\Studio\Projects\Unit1.pas=E:\projetos\eSocial-demo\uPrincipal.pas</Transaction>
+    <Transaction>2018/01/22 10:52:49.000.680,C:\Users\bruno.prado\Documents\Embarcadero\Studio\Projects\Unit1.dfm=E:\projetos\eSocial-demo\uPrincipal.dfm</Transaction>
+    <Transaction>2018/01/22 10:53:04.000.228,C:\Users\bruno.prado\Documents\Embarcadero\Studio\Projects\Project1.dproj=E:\projetos\eSocial-demo\eSocialDemo.dproj</Transaction>
+    <Transaction>2018/01/22 10:53:15.000.068,=E:\projetos\eSocial-demo\Unit1.pas</Transaction>
+    <Transaction>2018/01/22 10:53:43.000.375,E:\projetos\eSocial-demo\Unit1.pas=E:\projetos\eSocial-demo\uESocialInstancia.pas</Transaction>
+    <Transaction>2018/01/22 11:09:51.000.835,=E:\projetos\eSocial-demo\Unit1.pas</Transaction>
+    <Transaction>2018/01/22 11:10:12.000.027,E:\projetos\eSocial-demo\uConfiguracoes.pas=E:\projetos\eSocial-demo\Unit1.pas</Transaction>
+    <Transaction>2018/01/22 11:59:37.000.129,=E:\projetos\eSocial-demo\Unit1.pas</Transaction>
+    <Transaction>2018/01/22 11:59:48.000.321,E:\projetos\eSocial-demo\uUtil.pas=E:\projetos\eSocial-demo\Unit1.pas</Transaction>
+    <Transaction>2018/01/22 13:54:37.000.124,=E:\projetos\eSocial-demo\Unit1.pas</Transaction>
+    <Transaction>2018/01/22 13:54:43.000.928,E:\projetos\eSocial-demo\Unit1.pas=E:\projetos\eSocial-demo\uS1000.pas</Transaction>
+    <Transaction>2018/01/22 14:02:42.000.019,=E:\projetos\eSocial-demo\Unit1.pas</Transaction>
+    <Transaction>2018/01/22 14:04:06.000.896,E:\projetos\eSocial-demo\Unit1.pas=E:\projetos\eSocial-demo\uIdentificacaoEvento.pas</Transaction>
+    <Transaction>2018/01/22 14:13:23.000.749,=E:\projetos\eSocial-demo\Unit1.pas</Transaction>
+    <Transaction>2018/01/22 14:13:34.000.093,E:\projetos\eSocial-demo\Unit1.pas=E:\projetos\eSocial-demo\uIdentificacaoEmpregador.pas</Transaction>
+    <Transaction>2018/01/22 14:23:02.000.999,=E:\projetos\eSocial-demo\Unit1.pas</Transaction>
+    <Transaction>2018/01/22 14:23:20.000.783,E:\projetos\eSocial-demo\Unit1.pas=E:\projetos\eSocial-demo\uIdentificacaoPeriodo.pas</Transaction>
+    <Transaction>2018/01/22 14:32:47.000.056,=E:\projetos\eSocial-demo\Unit1.pas</Transaction>
+    <Transaction>2018/01/22 14:33:14.000.962,E:\projetos\eSocial-demo\Unit1.pas=E:\projetos\eSocial-demo\uInformacaoEmpregador.pas</Transaction>
+    <Transaction>2018/01/22 14:59:21.000.010,=E:\projetos\eSocial-demo\Unit1.pas</Transaction>
+    <Transaction>2018/01/22 14:59:39.000.851,E:\projetos\eSocial-demo\Unit1.pas=E:\projetos\eSocial-demo\uIdentificacaoEmpregadorIsento.pas</Transaction>
+    <Transaction>2018/01/22 15:18:37.000.725,=E:\projetos\eSocial-demo\Unit1.pas</Transaction>
+    <Transaction>2018/01/22 15:19:11.000.707,E:\projetos\eSocial-demo\Unit1.pas=E:\projetos\eSocial-demo\uInformacaoContato.pas</Transaction>
+    <Transaction>2018/01/22 15:32:03.000.003,=E:\projetos\eSocial-demo\Unit1.pas</Transaction>
+    <Transaction>2018/01/22 15:32:32.000.711,E:\projetos\eSocial-demo\Unit1.pas=E:\projetos\eSocial-demo\uInformacaoOP.pas</Transaction>
+    <Transaction>2018/01/22 15:37:18.000.998,=E:\projetos\eSocial-demo\Unit1.pas</Transaction>
+    <Transaction>2018/01/22 15:37:38.000.124,E:\projetos\eSocial-demo\Unit1.pas=E:\projetos\eSocial-demo\uInformacaoEFR.pas</Transaction>
+    <Transaction>2018/01/22 15:46:53.000.675,=E:\projetos\eSocial-demo\Unit1.pas</Transaction>
+    <Transaction>2018/01/22 15:47:06.000.880,E:\projetos\eSocial-demo\Unit1.pas=E:\projetos\eSocial-demo\uInformacaoFederativo.pas</Transaction>
+    <Transaction>2018/01/22 15:57:40.000.815,=E:\projetos\eSocial-demo\Unit1.pas</Transaction>
+    <Transaction>2018/01/22 15:58:06.000.903,E:\projetos\eSocial-demo\Unit1.pas=E:\projetos\eSocial-demo\uInformacaoInternacional.pas</Transaction>
+    <Transaction>2018/01/22 16:01:13.000.620,=E:\projetos\eSocial-demo\Unit1.pas</Transaction>
+    <Transaction>2018/01/22 16:01:36.000.378,E:\projetos\eSocial-demo\Unit1.pas=E:\projetos\eSocial-demo\uInformacaoSH.pas</Transaction>
+    <Transaction>2018/01/22 16:13:23.000.982,=E:\projetos\eSocial-demo\Unit1.pas</Transaction>
+    <Transaction>2018/01/22 16:13:35.000.201,E:\projetos\eSocial-demo\Unit1.pas=E:\projetos\eSocial-demo\uInformacaoComplementarPJ.pas</Transaction>
+    <Transaction>2018/01/22 16:17:24.000.623,=E:\projetos\eSocial-demo\Unit1.pas</Transaction>
+    <Transaction>2018/01/22 16:17:32.000.806,E:\projetos\eSocial-demo\Unit1.pas=E:\projetos\eSocial-demo\uInformacaoComplementarPF.pas</Transaction>
+    <Transaction>2018/01/24 10:26:36.490,=E:\projetos\eSocial-demo\Unit1.pas</Transaction>
+    <Transaction>2018/01/24 10:26:49.925,E:\projetos\eSocial-demo\uS1005.pas=E:\projetos\eSocial-demo\Unit1.pas</Transaction>
+    <Transaction>2018/01/24 10:31:06.366,=E:\projetos\eSocial-demo\Unit1.pas</Transaction>
+    <Transaction>2018/01/24 10:36:54.603,=E:\projetos\eSocial-demo\Unit1.pas</Transaction>
+    <Transaction>2018/01/24 10:37:00.215,E:\projetos\eSocial-demo\uEvento.pas=E:\projetos\eSocial-demo\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

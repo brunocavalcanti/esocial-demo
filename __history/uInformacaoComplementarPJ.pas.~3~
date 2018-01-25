@@ -1,0 +1,25 @@
+unit uInformacaoComplementarPJ;
+
+interface
+uses Classes, System.SysUtils;
+ type
+  TsituacaoPJ = class
+    private
+    FindSitPJ: String;
+    public
+    property indSitPJ: String read FindSitPJ write FindSitPJ;
+    function gerarTX2(): WideString;
+  end;
+
+
+
+implementation
+
+{ TsituacaoPJ }
+
+function TsituacaoPJ.gerarTX2: WideString;
+begin
+
+end;
+
+end.

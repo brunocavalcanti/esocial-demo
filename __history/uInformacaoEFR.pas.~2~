@@ -1,0 +1,8 @@
+unit uInformacaoEFR;
+
+interface
+uses
+  Classes, System.SysUtils;
+implementation
+
+end.

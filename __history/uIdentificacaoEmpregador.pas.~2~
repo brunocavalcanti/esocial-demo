@@ -1,0 +1,14 @@
+unit uIdentificacaoEmpregador;
+
+interface
+
+type
+  TideEmpregador = class
+
+
+  end;
+
+implementation
+
+end.
+

@@ -1,0 +1,17 @@
+unit uInformacaoEFR;
+
+interface
+
+uses
+  Classes, System.SysUtils;
+
+type
+  TinfoEFR = class
+  private
+  public
+  end;
+
+implementation
+
+end.
+

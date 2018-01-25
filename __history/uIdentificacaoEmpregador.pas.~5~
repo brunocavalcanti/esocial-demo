@@ -1,0 +1,35 @@
+unit uIdentificacaoEmpregador;
+
+interface
+
+uses
+  Classes;
+
+type
+  TideEmpregador = class
+  private
+    FtpInsc_8: string;
+    FnrInsc_9: string;
+  public
+    property tpInsc_8: string read FtpInsc_8 write FtpInsc_8;
+    property nrInsc_9: string read FnrInsc_9 write FnrInsc_9;
+    function gerarTX2(): WideString;
+  end;
+
+implementation
+
+{ TideEmpregador }
+
+function TideEmpregador.gerarTX2: WideString;
+var
+  Lista: TStringList;
+begin
+  Lista := TStringList.Create;
+  Lista.Add('tpAmb_4=' + tpAmb_4);
+  Lista.Add('procEmi_5=' + procEmi_5);
+  Lista.Add('verProc_6=' + verProc_6);
+  Result := Lista.Text;
+end;
+
+end.
+

@@ -1,0 +1,10 @@
+unit uInformacaoEmpregador;
+
+interface
+uses Classes;
+ type = class
+
+ end;
+implementation
+
+end.

@@ -1,0 +1,12 @@
+unit uEvento;
+
+interface
+
+type
+  TEvento = class
+
+  end;
+
+implementation
+
+end.

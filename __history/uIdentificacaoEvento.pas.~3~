@@ -1,0 +1,38 @@
+unit uIdentificacaoEvento;
+
+interface
+
+uses
+  Classes;
+
+type
+  TideEvento = class
+  private
+    FprocEmi_5: string;
+    FverProc_6: string;
+    FtpAmb_4: string;
+  public
+    property tpAmb_4: string read FtpAmb_4 write FtpAmb_4;
+    property procEmi_5: string read FprocEmi_5 write FprocEmi_5;
+    property verProc_6: string read FverProc_6 write FverProc_6;
+    function gerarTX2(): WideString;
+  end;
+
+implementation
+
+
+{ TideEvento }
+
+function TideEvento.gerarTX2: WideString;
+var
+  Lista: TStringList;
+begin
+  Lista := TStringList.Create;
+  Lista.Add('tpAmb_4=' + tpAmb_4);
+  Lista.Add('procEmi_5=' + procEmi_5);
+  Lista.Add('verProc_6=' + verProc_6);
+  Result := Lista.Text;
+end;
+
+end.
+

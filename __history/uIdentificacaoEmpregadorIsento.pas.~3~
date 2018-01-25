@@ -1,0 +1,17 @@
+unit uIdentificacaoEmpregadorIsento;
+
+interface
+uses
+ Classes, System.SysUtils;
+ type
+  TdadosIsencao = class
+    public
+
+
+    private
+    property ideMinLei_27: type read getter write setter;
+
+  end;
+implementation
+
+end.

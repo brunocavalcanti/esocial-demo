@@ -1,0 +1,18 @@
+unit uInformacaoInternacional;
+
+interface
+
+uses
+  Classes, System.SysUtils;
+
+type
+  TinfoOrgInternacional = class
+  private
+  public
+
+  end;
+
+implementation
+
+end.
+

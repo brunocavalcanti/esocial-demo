@@ -1,0 +1,29 @@
+unit uInformacaoEFR;
+
+interface
+
+uses
+  Classes, System.SysUtils;
+
+type
+  TinfoEFR = class
+  private
+    FcnpjEFR_45: String;
+    FideEFR_44: String;
+  public
+  property ideEFR_44: String read FideEFR_44 write FideEFR_44;
+  property cnpjEFR_45: String read FcnpjEFR_45 write FcnpjEFR_45;
+  function gerarTX2(): WideString;
+  end;
+
+implementation
+
+{ TinfoEFR }
+
+function TinfoEFR.gerarTX2: WideString;
+begin
+
+end;
+
+end.
+

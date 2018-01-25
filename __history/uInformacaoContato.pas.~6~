@@ -1,0 +1,51 @@
+unit uInformacaoContato;
+
+interface
+
+uses
+  System.Classes, System.SysUtils;
+
+type
+  Tcontato = class
+  public
+  private
+    Femail_40: string;
+    FnmCtt_36: string;
+    FcpfCtt_37: string;
+    FfoneCel_39: string;
+    FfoneFixo_38: string;
+    property nmCtt_36: string read FnmCtt_36 write FnmCtt_36;
+    property cpfCtt_37: string read FcpfCtt_37 write FcpfCtt_37;
+    property foneFixo_38: string read FfoneFixo_38 write FfoneFixo_38;
+    property foneCel_39: string read FfoneCel_39 write FfoneCel_39;
+    property email_40: string read Femail_40 write Femail_40;
+    function gerarTX2(): string;
+  end;
+
+implementation
+
+{ Tcontato }
+
+function Tcontato.gerarTX2: string;
+var
+  Lista: TStringList;
+begin
+
+  Lista := TStringList.Create;
+  Lista.Add('nmCtt_36=' + nmCtt_36);
+  Lista.Add('cpfCtt_37=' + cpfCtt_37);
+
+  if (Trim(foneFixo_38) <> EmptyStr) then
+    Lista.Add('foneFixo_38=' + foneFixo_38);
+
+  if (Trim(foneCel_39) <> EmptyStr) then
+    Lista.Add('foneCel_39=' + foneCel_39);
+
+  if (Trim(email_40) <> EmptyStr) then
+    Lista.Add('email_40=' + email_40);
+
+  Result := Lista.Text;
+end;
+
+end.
+

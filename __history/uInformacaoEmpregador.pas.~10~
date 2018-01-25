@@ -1,0 +1,69 @@
+unit uInformacaoEmpregador;
+
+interface
+
+uses
+  Classes, SysUtils;
+
+type
+  TinfoCadastro = class
+  private
+    FnmRazao_15: string;
+    FindEtt_24: string;
+    FindDesFolha_20: string;
+    FindConstr_19: string;
+    FclassTrib_16: string;
+    FnatJurid_17: string;
+    FindCoop_18: string;
+    FnrRegEtt_25: string;
+    FindEntEd_23: string;
+    FindOptRegEletron_21: string;
+  public
+    property nmRazao_15: string read FnmRazao_15 write FnmRazao_15;
+    property classTrib_16: string read FclassTrib_16 write FclassTrib_16;
+    property natJurid_17: string read FnatJurid_17 write FnatJurid_17;
+    property indCoop_18: string read FindCoop_18 write FindCoop_18;
+    property indConstr_19: string read FindConstr_19 write FindConstr_19;
+    property indDesFolha_20: string read FindDesFolha_20 write FindDesFolha_20;
+    property indOptRegEletron_21: string read FindOptRegEletron_21 write FindOptRegEletron_21;
+    property indEntEd_23: string read FindEntEd_23 write FindEntEd_23;
+    property indEtt_24: string read FindEtt_24 write FindEtt_24;
+    property nrRegEtt_25: string read FnrRegEtt_25 write FnrRegEtt_25;
+    function gerarTX2(): string;
+  end;
+
+implementation
+
+{ TinfoCadastro }
+
+function TinfoCadastro.gerarTX2: string;
+var
+  Lista: TStringList;
+begin
+
+  Lista := TStringList.Create;
+  Lista.Add('nmRazao_15=' + nmRazao_15);
+  Lista.Add('classTrib_16=' + classTrib_16);
+
+  if (Trim(natJurid_17) <> EmptyStr) then
+    Lista.Add('natJurid_17=' + natJurid_17);
+
+  if (Trim(indCoop_18) <> EmptyStr) then
+    Lista.Add('indCoop_18=' + indCoop_18);
+
+  if (Trim(indConstr_19) <> EmptyStr) then
+    Lista.Add('indConstr_19=' + indConstr_19);
+
+  Lista.Add('indDesFolha_20=' + indDesFolha_20);
+  Lista.Add('indOptRegEletron_21=' + indOptRegEletron_21);
+  Lista.Add('indEntEd_23=' + indEntEd_23);
+  Lista.Add('indEtt_24=' + indEtt_24);
+
+  if (Trim(nrRegEtt_25) <> EmptyStr) then
+    Lista.Add('nrRegEtt_25=' + nrRegEtt_25);
+
+  Result := Lista.Text;
+end;
+
+end.
+

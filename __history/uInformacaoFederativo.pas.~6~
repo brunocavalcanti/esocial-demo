@@ -1,0 +1,30 @@
+unit uInformacaoFederativo;
+
+interface
+
+uses
+  Classes, System.SysUtils;
+
+type
+  TinfoEnte = class
+  private
+    Fuf_48: string;
+    FnmEnte_47: string;
+    FvrSubteto_52: string;
+    FcodMunic_49: string;
+    Fsubteto_51: string;
+    FindRPPS_50: string;
+  public
+    property nmEnte_47: string read FnmEnte_47 write FnmEnte_47;
+    property uf_48: string read Fuf_48 write Fuf_48;
+    property codMunic_49: string read FcodMunic_49 write FcodMunic_49;
+    property indRPPS_50: string read FindRPPS_50 write FindRPPS_50;
+    property subteto_51: string read Fsubteto_51 write Fsubteto_51;
+    property vrSubteto_52: string read FvrSubteto_52 write FvrSubteto_52;
+    function gerarTX2(): WideString;
+  end;
+
+implementation
+
+end.
+

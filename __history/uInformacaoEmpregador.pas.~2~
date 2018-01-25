@@ -1,0 +1,8 @@
+unit uInformacaoEmpregador;
+
+interface
+uses Classes;
+
+implementation
+
+end.

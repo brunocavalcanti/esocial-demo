@@ -1,0 +1,27 @@
+unit uInformacaoFederativo;
+
+interface
+
+uses
+  Classes, System.SysUtils;
+
+type
+  TinfoEnte = class
+
+  private
+    Fuf_48: String;
+    FnmEnte_47: String;
+
+  public
+   property nmEnte_47: String read FnmEnte_47 write FnmEnte_47;
+   property uf_48: String read Fuf_48 write Fuf_48;
+   property codMunic_49: String read FcodMunic_49 write FcodMunic_49;
+   property indRPPS_50: String read FindRPPS_50 write FindRPPS_50;
+   property subteto_51: String read Fsubteto_51 write Fsubteto_51;
+   property vrSubteto_52: String read FvrSubteto_52 write FvrSubteto_52;
+  end;
+
+implementation
+
+end.
+

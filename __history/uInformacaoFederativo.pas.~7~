@@ -1,0 +1,48 @@
+unit uInformacaoFederativo;
+
+interface
+
+uses
+  Classes, System.SysUtils;
+
+type
+  TinfoEnte = class
+  private
+    Fuf_48: string;
+    FnmEnte_47: string;
+    FvrSubteto_52: string;
+    FcodMunic_49: string;
+    Fsubteto_51: string;
+    FindRPPS_50: string;
+  public
+    property nmEnte_47: string read FnmEnte_47 write FnmEnte_47;
+    property uf_48: string read Fuf_48 write Fuf_48;
+    property codMunic_49: string read FcodMunic_49 write FcodMunic_49;
+    property indRPPS_50: string read FindRPPS_50 write FindRPPS_50;
+    property subteto_51: string read Fsubteto_51 write Fsubteto_51;
+    property vrSubteto_52: string read FvrSubteto_52 write FvrSubteto_52;
+    function gerarTX2(): WideString;
+  end;
+
+implementation
+
+{ TinfoEnte }
+
+function TinfoEnte.gerarTX2: WideString;
+var
+  Lista: TStringList;
+begin
+  Lista := TStringList.Create;
+  Lista.Add('nmEnte_47=' + nmEnte_47);
+  Lista.Add('uf_48=' + uf_48);
+  if (Trim(codMunic_49) <> EmptyStr) then
+    Lista.Add('codMunic_49=' + codMunic_49);
+
+  Lista.Add('indRPPS_50=' + indRPPS_50);
+  Lista.Add('subteto_51=' + subteto_51);
+  Lista.Add('vrSubteto_52=' + vrSubteto_52);
+  Result := Lista.Text;
+end;
+
+end.
+

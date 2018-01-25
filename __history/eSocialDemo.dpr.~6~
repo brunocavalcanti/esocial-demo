@@ -1,0 +1,25 @@
+program eSocialDemo;
+
+uses
+  Vcl.Forms,
+  uPrincipal in 'uPrincipal.pas' {Form1},
+  uESocialInstancia in 'uESocialInstancia.pas',
+  uConfiguracoes in 'uConfiguracoes.pas',
+  uUtil in 'uUtil.pas',
+  uS1000 in 'uS1000.pas',
+  uIdentificacaoEvento in 'uIdentificacaoEvento.pas',
+  uIdentificacaoEmpregador in 'uIdentificacaoEmpregador.pas',
+  uIdentificacaoPeriodo in 'uIdentificacaoPeriodo.pas',
+  uInformacaoEmpregador in 'uInformacaoEmpregador.pas',
+  uIdentificacaoEmpregadorIsento in 'uIdentificacaoEmpregadorIsento.pas',
+  uInformacaoContato in 'uInformacaoContato.pas',
+  uInformacaoOP in 'uInformacaoOP.pas';
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.
